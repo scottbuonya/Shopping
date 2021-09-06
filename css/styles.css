@@ -82,3 +82,16 @@ li {
 .logo h1 {
     font-size: 2.5rem;
 }
+
+.top-nav {
+    display: none;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 0.5rem;
+}
